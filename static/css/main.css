@@ -1,0 +1,1069 @@
+* {
+  margin: 0;
+  padding:0;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: mr_kindlyjasmineg;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/mr_kindlyjasmineg/mr_kindlyjasmineg.otf);
+}
+
+@font-face {
+  font-family: Marko One;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Marko_One/MarkoOne-Regular.ttf);
+}
+
+#header {
+  position: absolute;
+  width: 1865px;
+  height: 789px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../images/1.jpg);
+  filter: blur(0.5px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Logo {
+position: absolute;
+width: 40px;
+height: 57px;
+left: 160px;
+top: 26px;
+}
+
+
+.logo_color1 {
+  position: absolute;
+  width: 40px;
+  height: 57px;
+  left: 160px;
+  top: 26px;
+
+  background: url(../images/logo.svg);
+}
+
+.Menu {
+  position: absolute;
+  width: 303px;
+  height: 17px;
+  left: 977px;
+  top: 46px;
+}
+
+.excursions {
+/* Экскурсии */
+
+  position: absolute;
+  width: 80px;
+  height: 17px;
+  left: 656px;
+  top: 46px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+
+  color: yellow;
+}
+
+.excursions:hover {
+  text-decoration: underline;
+}
+
+.heading {
+/* заголовок */
+
+  position: absolute;
+  width: 813px;
+  height: 194px;
+  left: 160px;
+  top: 137px;
+}
+
+.line1 {
+  /* ПУТЕШЕСТВУЙ */
+
+  position: absolute;
+  width: 592px;
+  height: 88px;
+  left: 160px;
+  top: 137px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 88px;
+
+  color: #FFFFFF;
+}
+
+.line2 {
+  /* вместе с */
+
+  position: absolute;
+  width: 151px;
+  height: 64px;
+  left: 700px;
+  top: 185px;
+
+  font-family: 'mr_KindlyJasmineG';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+
+  color: #FFC700;
+}
+
+.line3 {
+  /* ИУБИП TRAVEL */
+
+  position: absolute;
+  width: 813px;
+  height: 117px;
+  left: 160px;
+  top: 214px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+  line-height: 117px;
+}
+
+.bottom {
+  position: absolute;
+  left: 320px;
+  right: 72.92%;
+  top: 573px;
+  bottom: 31.43%;
+}
+
+#excursionButton {
+  width: 230px;
+  height: 50px;
+  background: linear-gradient(to right, rgba(4, 153, 221, 1), rgba(23, 193, 188, 1));
+  border: none;
+  border-radius: 60px;
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+  
+#excursionButton:hover {
+  background: linear-gradient(to right, rgba(23, 193, 188, 1), rgba(4, 153, 221, 1));
+}
+  
+.arrow {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.social_networks {
+  position: absolute;
+  width: 34px;
+  height: 74px;
+  left: 848px;
+  top: 189px;
+}
+
+.vk {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 848px;
+  top: 189px;
+}
+
+.vector1 {
+  position: absolute;
+  left: 9.38%;
+  right: 8.79%;
+  top: 25%;
+  bottom: 21.84%;
+
+  background: url(../images/vk_vkontakte_media_social.svg);
+  background-repeat: no-repeat;
+}
+
+
+
+  .tg {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 848px;
+  top: 229px;
+}
+
+.vector2 {
+  position: absolute;
+  left: 12.5%;
+  right: 10.57%;
+  top: 12.5%;
+  bottom: 10.57%;
+
+
+  background: url(../images/Vector.svg);
+  background-repeat: no-repeat ;
+}
+
+.popular_excursions {
+  /* Популярные экскурсии */
+
+  position: absolute;
+  width: 311px;
+  height: 29px;
+  left: 160px;
+  top: 939px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+
+  /* blue */
+  color: #0499DD;
+}
+
+.look_all {
+  /* Смотреть все */
+
+  position: absolute;
+  width: 85px;
+  height: 15px;
+  left: 1395px;
+  top: 946px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+  /* identical to box height */
+  text-decoration-line: underline;
+
+  /* black */
+  color: #0499DD;
+}
+
+.image1 {
+  position: absolute;
+  width: 360px;
+  height: 497px;
+  top: 1060px;
+  left: 160px;
+  padding-left: 15px;
+
+  background-image: url(../images/2.jpg);
+  background-repeat: no-repeat;
+}
+
+.image2 {
+  position: absolute;
+  width: 360px;
+  height: 497px;
+  top: 1060px;
+  left: 545px;
+  padding-left: 15px;
+  
+  background-image: url(../images/3.png);
+  background-repeat: no-repeat;
+}
+
+.image3 {
+  position: absolute;
+  width: 360px;
+  height: 497px;
+  top: 1060px;
+  left: 930px;
+  padding-left: 15px;
+  
+  background-image: url(../images/4.png);
+  background-repeat: no-repeat;
+}
+
+.image4 {
+  position: absolute;
+  width: 360px;
+  height: 497px;
+  top: 1060px;
+  left: 1315px;
+  padding-left: 15px;
+  
+  background-image: url(../images/5.png);
+  background-repeat: no-repeat;
+}
+
+.text_pop {
+  width: 102px;
+  height: 15px;
+  padding-top: 215px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #FFFFFF;
+}
+
+.heading_pop {
+  width: 233px;
+  height: 17px;
+  padding-top: 5px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: yellow;
+}
+
+.time {
+  width: 15px;
+  height: 15px;
+  padding-top: 10px;
+  
+  background-repeat: no-repeat;
+}
+
+.text_time {
+  width: 70px;
+  height: 15px;
+  padding-top: 10px;
+  padding-left: 2%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+
+  color: #FFFFFF;
+}
+
+.text_money {
+  width: 100px;
+  height: 15px;
+  padding-top: 10px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.text_pop2 {
+  width: 328px;
+  height: 105px;
+  padding-top: 15px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #FFFFFF;
+}
+
+.bottom2 {
+  position: absolute;
+  left: 20px;
+  right: 72.92%;
+  top: 430px;
+  bottom: 31.43%;
+}
+  
+#excursionButton2 {
+  width: 160px;
+  height: 40px;
+  background: linear-gradient(to right, rgba(4, 153, 221, 1), rgba(23, 193, 188, 1));
+  border: none;
+  border-radius: 60px;
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+    
+#excursionButton2:hover {
+  background: linear-gradient(to right, rgba(23, 193, 188, 1), rgba(4, 153, 221, 1));
+}
+
+#block3 {
+  position: absolute;
+  width: 1865px;
+  height: 749px;
+  top: 1738px;
+
+  z-index: 1;
+}
+
+.img_block3 {
+  position: absolute;
+  width: 70%;
+  height: 749px;
+  left: 0px;
+  z-index: 2;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/6.jpg);
+  border-radius: 0px 10px 10px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rectangle_gray {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 938px;
+  top: 150px;
+  opacity: 0.99;
+  z-index: 3;
+
+  /* gray 2 */
+  background: #EDEDED;
+  border-radius: 10px;
+  text-align: left;
+  padding: 100px 100px 0px 100px;
+  background-size: cover;
+}
+
+.heading_2 {
+  width: 73px;
+  height: 29px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* blue */
+  color: #0499DD;
+}
+
+.text {
+  width: 382px;
+  height: 241px;
+  margin-top: 50px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  /* black */
+  color: #282828;
+}
+
+.type {
+  /* Виды экскурсий */
+
+  position: absolute;
+  width: 217px;
+  height: 29px;
+  left: 160px;
+  top: 2687px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* blue */
+  color: #0499DD;
+
+}
+
+.i0 {
+  width: 1220px;
+  left: 280px;
+  top: 2800px;
+  position: absolute;
+}
+
+.i1 {
+  width: 490px;
+  height: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+  color: rgba(4, 153, 221, 1);
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+  
+.i2 {
+  font-size: 14pt;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  text-align: justify;
+  vertical-align: top;
+}
+  
+.i3 {
+  font-size: 14pt;
+  text-align: center;
+  line-height: 17px;
+  padding-top: 7%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+}
+
+.i4 {
+  width: 120px;
+  padding-left: 20px;
+}
+
+  #tourButton {
+  width: 230px; /* Ширина кнопки */
+  height: 50px; /* Высота кнопки */
+  background: linear-gradient(to right, rgba(4, 153, 221, 1), rgba(23, 193, 188, 1)); /* Градиент */
+  border: none; /* Убираем границу */
+  border-radius: 60px; /* Закругленные углы */
+  color: white; /* Цвет текста */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px; /* Шрифт */
+  display: flex; /* Для выравнивания текста и стрелки */
+  align-items: center; /* Выравнивание по вертикали */
+  justify-content: center; /* Распределение пространства */
+  padding: 0 15px; /* Внутренние отступы */
+  cursor: pointer; /* Курсор в виде указателя */
+  transition: background 0.3s ease; /* Плавный переход для фона */
+  position: absolute; /* Абсолютное позиционирование */
+  top: 3400px; /* Отступ сверху */
+  left: 789px; /* Отступ слева */
+}
+
+#tourButton:hover {
+  background: linear-gradient(to right, rgba(23, 193, 188, 1), rgba(4, 153, 221, 1));
+}
+
+.icon_arrow {
+  font-size: 20px;
+  margin-left: 10px;
+}
+ 
+#block5 {
+  position: absolute;
+  width: 70%;
+  height: 749px;
+  left: 560px;
+  top: 3600px;
+  z-index: 1;
+
+  background: url(../images/7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px 0px 10px 10px;
+}
+     
+.rectangle_gray2 {
+  position: absolute;
+  width: 400px;
+  height: 470px;
+  left: 360px;
+  top: 3720px;
+  opacity: 0.99;
+  z-index: 2;
+
+  background-color: rgba(237, 237, 237, 1);
+  border-radius: 10px;
+  text-align: left;
+  padding: 80px 100px 0px 100px;
+  background-size: cover;
+}
+    
+.heading_3 {
+  width: 315px;
+  height: 29px;  
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #0499DD;
+}
+
+.text2 {
+  width: 392px;
+  height: 241px;
+  top: 130px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #282828;
+}
+
+#passButton {
+  width: 230px; /* Ширина кнопки */
+  height: 50px; /* Высота кнопки */
+  background: linear-gradient(to right, rgba(4, 153, 221, 1), rgba(23, 193, 188, 1)); /* Градиент */
+  border: none; /* Убираем границу */
+  border-radius: 60px; /* Закругленные углы */
+  color: white; /* Цвет текста */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px; /* Шрифт */
+  display: flex; /* Для выравнивания текста и стрелки */
+  align-items: center; /* Выравнивание по вертикали */
+  justify-content: center; /* Распределение пространства */
+  padding: 0 15px; /* Внутренние отступы */
+  cursor: pointer; /* Курсор в виде указателя */
+  transition: background 0.3s ease; /* Плавный переход для фона */
+  position: absolute; /* Абсолютное позиционирование */
+  top: 450px; /* Отступ сверху */
+  left: 170px; /* Отступ слева */
+}
+  
+#passButton:hover {
+  background: linear-gradient(to right, rgba(23, 193, 188, 1), rgba(4, 153, 221, 1));
+}
+  
+.pass_arrow {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.heading_4 {
+  position: absolute;
+  width: 107px;
+  height: 29px;
+  left: 159.86px;
+  top: 4527px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+/* blue */
+  color: #0499DD;
+}
+    
+.look_all2 {
+  position: absolute;
+  width: 85px;
+  height: 15px;
+  left: 1395px;
+  top: 4527px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+/* identical to box height */
+  text-decoration-line: underline;
+
+/* black */
+  color: #0499DD;
+}
+
+#block6 {
+  position: absolute;
+  width: 100%;
+  height: 780px;
+  top: 4646px;
+  z-index: 1;
+}
+
+.img1 {
+  position: absolute;
+  width: 600px;
+  height: 370px;
+  left: 15px;
+  top: 0px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/img1.svg);
+  border-radius: 15px;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img2 {
+  position: absolute;
+  width: 480px;
+  height: 755px;
+  left: 635px;
+  top: 0px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/img2.svg);
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+.img3 {
+  position: absolute;
+  width: 370px;
+  height: 370px;
+  left: 1135px;
+  top: 0px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/img3.svg);
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+.img4 {
+  position: absolute;
+  width: 320px;
+  height: 370px;
+  left: 1525px;
+  top: 0px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/img4.svg);
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+.img5 {
+position: absolute;
+  width: 300px;
+  height: 367px;
+  left: 15px;
+  top: 390px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/img5.svg);
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+  .img6 {
+  position: absolute;
+  width: 287px;
+  height: 173px;
+  left: 330px;
+  top: 390px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/img6.svg);
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+.img7 {
+  position: absolute;
+  width: 287px;
+  height: 173px;
+  left: 330px;
+  top: 583px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/img7.svg);
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+.img8 {
+  position: absolute;
+  width: 710px;
+  height: 367px;
+  left: 1135px;
+  top: 390px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/img8.svg);
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+.heading_5 {
+  position: absolute;
+  width: 107px;
+  height: 29px;
+  left: 159.86px;
+  top: 5600px;
+      
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+      
+      /* blue */
+  color: #0499DD;
+}
+      
+.look_all3 {
+  position: absolute;
+  width: 85px;
+  height: 15px;
+  left: 1395px;
+  top: 5600px;
+      
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+      
+    /* identical to box height */
+  text-decoration-line: underline;
+      
+    /* black */
+  color: #0499DD;
+}
+
+#block7 {
+  position: absolute;
+  width: 1545px;
+  height: 322px;
+  top: 5800px;
+  left: 160px;
+}
+
+.review1 {
+  position: absolute;
+  width: 750px;
+  height: 322px;
+
+  background-color: rgba(237, 237, 237, 1);
+  border-radius: 15px;
+}
+
+.review2 {
+  position: absolute;
+  width: 750px;
+  height: 322px;
+  left: 800px;
+
+  background-color: rgba(237, 237, 237, 1);
+  border-radius: 15px;
+}
+
+.content {
+  position: absolute;
+  width: 676px;
+  height: 245px;
+  top: 38px;
+  left: 36px;
+}
+
+.img_review {
+  width: 245px;
+  height: 245px;
+
+}
+
+.heading_review {
+  width: 395px;
+  height: 20px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: left;
+}
+
+.text_review {
+  width: 395px;
+  height: 225px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: left;
+}
+
+.pp {
+  /* ” */
+  position: absolute;
+  width: 197px;
+  height: 322.48px;
+  top: 38px;
+  left: 500px;
+  
+  font-family: 'Marko One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 500px;
+  line-height: 670px;
+  
+  /* yellow */
+  color: #FFC700;
+  
+  opacity: 0.04;
+  transform: rotate(16.66deg);
+}
+
+#footer {
+  position: absolute;
+  width: 1865px;
+  height: 180px;
+  top: 6400px;
+
+  background-color: rgba(237, 237, 237, 1);
+}
+        
+.logo2 {
+  position: absolute;
+  width: 80px;
+  height: 114px;
+  top: 20px;
+  left: 260px;
+        
+  background-image: url(../images/logo_color\ 2.svg);
+}
+        
+.menu2 {
+  position: absolute;
+  width: 124px;
+  height: 50px;
+  top: 39px;
+  left: 550px;
+}
+        
+.text_menu2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  text-align: left;
+  color: black;
+  vertical-align: middle;
+}
+        
+.watsapp {
+  position: absolute;
+  width: 160px;
+  height: 70px;
+  left: 950px;
+  top: 40px;
+}
+        
+.mail {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 1350px;
+  top: 40px;
+}
+        
+.mail_logo {
+  vertical-align: middle;
+}
+        
+            
+.vk2 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 45px;
+  left: 0px;
+            
+  background: url(../images/vk\ vkontakte\ media\ social\ 2.svg);
+  background-repeat: no-repeat;
+}
+            
+.tg2 {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  top: 40px;
+  left: 40px;
+        
+  background: url(../images/Vector\ 2.svg);
+  background-repeat: no-repeat ;
+}
+
+  
